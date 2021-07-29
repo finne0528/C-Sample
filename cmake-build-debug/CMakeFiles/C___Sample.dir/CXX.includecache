@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/finne/CLionProjects/C++_Sample/fizzbuzz.cpp
+iostream
+-
+
+/Users/finne/CLionProjects/C++_Sample/fizzbuzz.h
+
+/Users/finne/CLionProjects/C++_Sample/main.cpp
+iostream
+-
+fizzbuzz.h
+/Users/finne/CLionProjects/C++_Sample/fizzbuzz.h
+
